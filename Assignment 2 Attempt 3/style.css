@@ -1,0 +1,82 @@
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Saridona';
+    color: rgb(255, 255, 255);
+}
+
+header{
+    font-family: 'Saridona';
+}
+
+.logo{
+    width: 10%;
+    display: block;
+    margin: 0 auto;
+}
+
+header{
+    background: linear-gradient(rgba(2, 2, 158, 0.5),rgba(232, 98, 26, 0.5));
+    background-repeat: no-repeat;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    background: linear-gradient(rgba(232, 98, 26, 0.5),rgba(2, 2, 158, 0.5));    
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.table{
+
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    padding-bottom: 200px;
+    color: rgb(91, 56, 56);
+    background: linear-gradient(rgba(232, 98, 26, 0.5),rgba(2, 2, 158, 0.5));
+    background-repeat: no-repeat;
+}
+
+th,td{
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+}
+
+.picturechangelink:hover
+{
+    cursor: pointer;
+    font-size: 150%;
+}
+
+a:hover{
+    cursor: pointer;
+    color: #ffff07;
+}
+
+a{
+    color: #c12406;
+}
+
+body{
+    
+    color:azure;
+    background-image: url(assets/nike\ background.jpg);
+    background-repeat: no-repeat;
+}
+
+#nav{
+    background: linear-gradient(rgba(2, 2, 158, 0.5),rgba(232, 98, 26, 0.5));
+}
+
+#nav_{
+    color:#ffff07;
+}
+
+#nav_:hover{
+    cursor: pointer;
+    color: #c12406;
+}
